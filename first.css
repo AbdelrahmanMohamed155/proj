@@ -1,0 +1,27 @@
+.container{
+margin: 20px auto;
+width: 1200px;
+
+}
+.container.color-switcher{
+    list-style: none;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+.container.container.color-switcher li{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    display: inline-block;
+
+}
+.container.container.color-switcher li:first-child{
+    background-color: coral;
+}
+.container.container.color-switcher li:nth-child(2){
+    background-color: cyan;
+}
+.container.container.color-switcher li:nth-child(3){
+    background-color: darkorchid;
+}
